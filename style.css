@@ -4,6 +4,7 @@
 }
 body{
     background-color: lightseagreen;
+    overflow-x: hidden;
 }
 header {
     width: 100%;
@@ -226,49 +227,157 @@ footer{
     font-size: 30px;
 }
 @media  (max-width:481px){
+    body{
+        overflow-x: hidden;
+    }
     header{
-        width: 382%;
+        width: 94%;
         display: inline-block;
         height: 34vh;
     }
     .box{
         display: inline-block;
-        width: 52vw;
+        width: 49vw;
         height: 30vh;
     }
     .email{
         font-size: 10px;
+        padding: 1px 5px;
     }
     .phoneno{
         font-size: 10px;
+        padding: 1px 5px;
+
     }
     .father{
         font-size: 10px;
+        padding: 1px 5px;
+
     }
     .mother{
         font-size: 10px;
+        padding: 1px 5px;
+
     }
     .name{
         font-size: 10px;
+        padding: 1px 5px;
+
     }
     .tital{
         font-size: 10px;
         padding: 5px;
         display: inline-block;
         position: relative;
-        top: 30px;
-        right: 181px;
+        top: 0px;
+        right: -101px;
     }
     .logo{
         display: inline-block;
         position: relative;
-        right: 195px;
+        right: -206px;
         width: 24vw;
         height: 24vh;
+        bottom: 178px;
     }
     img{
         width: 24vw;
         height: 24vh;
+    }
+    a{
+        font-size: 10px;
+    }
+    nav{
+        width: 29vw;
+        position: relative;
+        bottom: 235px;
+    }
+    .heading{
+        font-size: 32px;
+        width: 76vw;
+        height: 9vh;
+    }
+    main{
+        position: relative;
+        bottom: 234px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .skill1{
+        height: 100px;
+        width: 100px;
+    }
+    .css{
+        padding-left: 5px;
+        text-align: left;
+        width: 37vw;
+        height: 31vh;
+    }
+    h2{
+        font-size: 27px;
+    }
+    .skill2{
+        height: 100px;
+        width: 100px;
+    }
+    .html{
+        padding-left: 5px;
+        text-align: left;
+        width: 37vw;
+        height: 31vh;
+    }
+    .note{
+        font-size: 17px;
+        padding: 5px;
+        width: 97%;
+        height: 21vh;
+    }
+    #education{
+        font-size: 32px;
+        width: 62vw;
+        height: 9vh;
+    }
+    .education{
+        position: relative;
+        bottom: 30px;
+    }
+    th{
+        font-size: 10px;
+    }
+    td{
+        font-size: 10px;
+    }
+    .cse{
+        font-size: 18px;
+        padding-left: 5px;
+        padding-top: 10px;
+        text-align: left;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        width: 97%;
+    }
+    .about{
+        position: relative;
+        bottom: 64px;
+        top: -41px;
+    }
+    #about{
+        font-size: 32px;
+        width: 55vw;
+        height: 10vh;
+        padding: 5px;
+    }
+    #mukundm054{
+        position: relative;
+        bottom: 32px;
+    }
+    #mukund{
+        font-size: 19px;
+    }
+    footer{
+        font-size: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
 
 
