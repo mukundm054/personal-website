@@ -11,15 +11,15 @@ header {
     background-color: black;
     color: white;
     display: flex;
-    gap: 15px;
-    padding: 10px 10px;
+    gap: 0.9rem;
+    padding: 0.6em;
 
 }
 
 .name {
     background-color: white;
     color: black;
-    padding: 9px;
+    padding: 0.6em;
     font-family: "Figtree", sans-serif;
     text-transform: capitalize;
 }
@@ -27,7 +27,7 @@ header {
 .email {
     background-color: white;
     color: black;
-    padding: 9px;
+    padding: 0.6em;
     font-family: "Figtree", sans-serif;
     
 
@@ -36,15 +36,15 @@ header {
 .phoneno {
     background-color: white;
     color: black;
-    padding: 9px;
+    padding: 0.6em;
     font-family: "Figtree", sans-serif;
 
 
 }
 
 .logo {
-    width: 120px;
-    height: 126px;
+    width: 7vw;
+    height: 19vh;
     border: 9px solid white;
     background-color: red;
     display: flex;
@@ -56,7 +56,7 @@ header {
 .father {
     background-color: white;
     color: black;
-    padding: 4px;
+    padding: 0.3em;
     font-family: "Figtree", sans-serif;
     text-transform: capitalize;
 
@@ -66,7 +66,7 @@ header {
 .mother {
     background-color: white;
     color: black;
-    padding: 5px;
+    padding: 0.3em;
     font-family: "Figtree", sans-serif;
     text-transform: capitalize;
 
@@ -76,27 +76,26 @@ header {
 
 .box {
     display: grid;
-    row-gap: 10px;
-    column-gap: 10px;
-    grid-template-rows: 45px 45px 1px;
-    grid-template-columns: 250px 227px 214px;
-    row-gap: 20px;
-    width: 700px;
-    height: 130px;
+    column-gap: 0.6em;
+    grid-template-rows: 2.7em 2.7em 0.06em;
+    grid-template-columns: 16em 13.6em 13.84em;
+    row-gap: 1.2em;
+    width: 47vw;
+    height: auto;
     
 }
 
 img {
-    width: 120px;
-    height: 126px;
+    width: 7.25vw;
+    height: 19vh;
 }
 
 .tital {
     color: white;
     display: flex;
-    padding: 50px;
+    padding: 3em;
     font-family: "Figtree", sans-serif;
-    font-size: 17px;
+    font-size: 1em;
 }
 nav{
     color: white;
@@ -114,26 +113,26 @@ a{
 .heading{
     font-family: Pacifico;
     color: black;
-    font-size: 90px;
-    padding: 10px;
+    font-size: 5.6em;
+    padding: 0.11em;
     width: 45vw;
-    height: 20vh;
+    height: auto;
     text-decoration: underline white;
     text-align: center;
 }
 
 
 .skill1{
-    width: 200px;
-    height: 130px;
+    width: 13vw;
+    height: 19vh;
     border: 1px solid black;
     border-radius: 30px;
 }
 .css{
-    width: 230px;
-    height: 165px;
+    width: 15vw;
+    height: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8em;
     display: inline-block;
     
 }
@@ -143,25 +142,29 @@ h2{
     color: lightblue;
     
 }
+.skills{
+    width: 97%;
+    height: auto;
+}
 .skill2{
-    width: 200px;
-    height: 130px;
+    width: 13vw;
+    height: 19vh;
     border: 1px solid black;
     border-radius: 30px;
 }
 .html{
-     width: 230px;
-    height: 165px;
+     width: 15vw;
+    height: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8em;
     display: inline-block;
 }
 .note{
     display: inline-block;
     width: 61%;
-    height: 135px;
-    padding: 50px;
-    font-size: 50px;
+    height: auto;
+    padding: 1em;
+    font-size: 3em;
     font-family: BBH Sans Hegarty;
     color: yellow;
     text-decoration: underline red;
@@ -169,34 +172,34 @@ h2{
 #education{
     font-family: Pacifico;
     color: black;
-    font-size: 90px;
-    padding: 10px;
-    width: 35vw;
-    height: 20vh;
+    font-size: 5.6em;
+    padding: 0.11em;
+    width: 37vw;
+    height: auto;
     text-decoration: underline white;
     text-align: center;
 }
 th{
     background-color: red;
-    font-size: 20px;
+    font-size: 1em;
     text-align: center;
     text-decoration: underline white;
 }
 table{
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     background-color: white;
 }
 tr{
-    font-size: 20px;
+    font-size: 1em;
     text-align: center;
 }
 .cse{
     width: 100%;
     height: 15vh;
     text-align: center;
-    font-size: 35px;
-    padding: 30px;
+    font-size: 2em;
+    padding: 0.8em;
     color:darkblue;
     font-family: font-family Pacifico;
     text-transform: capitalize;
@@ -204,16 +207,16 @@ tr{
 #about{
      font-family: Pacifico;
     color: black;
-    font-size: 90px;
-    padding: 10px;
+    font-size: 5.6em;
+    padding: 0.11em;
     width: 32vw;
-    height: 20vh;
+    height: auto;
     text-decoration: underline white;
     text-align: center;
 }
 #mukund{
-    font-size: 50px;
-    padding: 15px;
+    font-size: 3em;
+    padding: 0.32em;
 }
 #mukundm054{
     width: 100%;
@@ -222,9 +225,9 @@ tr{
 footer{
     background-color: yellowgreen;
     color: black;
-    height: 20vh;
+    height: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 2em;
 }
 @media  (max-width:481px){
     body{
